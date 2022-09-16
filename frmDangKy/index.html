@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaiLieu.VN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="modal">
+        <div class="modal-signinform">
+            <div class="modal-signinform-header">
+                <span class="modal-siginform-header--title">ĐĂNG KÝ</span>
+                <img class="modal-siginform-header--img" src="closefanbox.gif" alt=" ">
+            </div>
+            <div class="modal-signinform-information">
+                <div class="modal-signinform-information-loginwFB">
+                    <p class="modal-signinform-information--title">
+                        <i class="bullet--icon fa-solid fa-circle"></i>
+                        Đăng ký nhanh qua Facebook
+                    </p>
+                    <div class="modal-signinform-information-loginwFB--contains">
+                        <button class="contains--btn mg-l">
+                            <i class="contains-icon--facebook fa-brands fa-facebook"></i>
+                            Login with Faceboook</button>
+                        <div class="contains--coupon">
+                            <ul>
+                                <li>
+                                    <i class="bullet-tip--icon bullet--icon fa-solid fa-circle"></i>
+                                    Thưởng ngay <span style="color: red;">50</span> ePoints khi đăng ký mới & <span
+                                        style="color: red;">5</span> ePoints cho mỗi lượt chia sẻ Facebook
+                                </li>
+                                <li>
+                                    <i class="bullet-tip--icon bullet--icon fa-solid fa-circle"></i>
+                                    Tích lũy nhiều ePoints khi Upload tài liệu
+                                    <a href="#"> >> </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="sigin-new mg-l" id="sigin-new--onclick">Đăng ký mới bằng tài khoản TaiLieu.VN</p>
+                <div class="d-none animation-css" id="signinform--hide">
+                    <div class="modal-signinform-information-fillID ">
+                        <p>Bạn cần kích hoạt tài khoản qua Email sau khi đăng ký để nhận ngay 50 ePoints thưởng từ
+                            TaiLieu.VN</p>
+                        <div class="modal-signinform-information-fillID--form">
+                            <div class="form-group">
+                                <input class="form-group--input" placeholder="Nhập UserName" type="text" name="" id="">
+                                <input class="form-group--input" placeholder="Nhập Họ và Tên" type="text" name="" id="">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-group--input" placeholder="Nhập mật khẩu" type="text" name="" id="">
+                                <select class="form-group--select" name="sex" id="sex">
+                                    <option value="Giới Tính">Giới Tính</option>
+                                    <option value="Nam">Nam</option>
+                                    <option value="Nữ">Nữ</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-group--input" placeholder="Nhập lại mật khẩu" type="text" name=""
+                                    id="">
+                                <select class="form-group--select" name="dd" id="dd">
+                                    <option value="Ngày Sinh">Ngày Sinh</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                                <select class="form-group--select" name="mm" id="mm">
+                                    <option value="Tháng">Tháng Sinh</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                                <select class="form-group--select" name="YY" id="YY">
+                                    <option value="Năm">Năm</option>
+                                    <option value="2000">2000</option>
+                                    <option value="2001">2001</option>
+                                    <option value="2002">2002</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-group--input" placeholder="Nhập địa chỉ Email" type="text" name=""
+                                    id="">
+                                <select class="form-group--select" name="region" id="region">
+                                    <option value="Tỉnh/TP">Tỉnh/TP</option>
+                                    <option value="Huế">Huế</option>
+                                    <option value="Quảng Trị">Quảng Trị</option>
+                                    <option value="Đà Nẵng">Đà Nẵng</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-group--input" placeholder="Nhập lại địa chỉ Email" type="text"
+                                    name="" id="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-signinform-information-submit mg-t">
+                        <button class="submit--btn">Đăng Ký</button>
+                        <div class="modal-signinform-information-submit--btn--checkpolicy">
+                            <input class="submit--checkbox" type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                            <span>Tôi đồng ý với các Chính Sách và Thỏa Thuận Sử Dụng của TaiLieu.VN</span>
+                        </div>
+                    </div>
+                </div>
+
+                <span class="decoration"></span>
+                <div class="modal-signupform">
+                    <p class="sigin-new mg-l" id="signup-new--onclick">Bạn đã có tài khoản TaiLieu.VN? Đăng Nhập</p>
+                    <div class="d-none" id="signupform--hide">
+                        <div class="modal-signinform-information-fillID--form ">
+                            <div class="form-group">
+                                <input class="form-group--input" placeholder="Nhập UserName hoặc Email" type="text"
+                                    name="" id="">
+                                <input class="form-group--input" placeholder="Nhập mật khẩu" type="text" name="" id="">
+                            </div>
+                        </div>
+                        <div class="modal-signinform-information-submit " style="margin-top: 2px;">
+                            <button class="submit--btn">Đăng Nhập</button>
+                            <div class="modal-signinform-information-submit--btn--checkpolicy">
+                                <input class="submit--checkbox" type="checkbox" id="vehicle1" name="vehicle1"
+                                    value="Bike">
+                                <span>Nhớ mật khẩu <span>|</span> <a href="#">Quên mật khẩu</a> </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-signinform-footer">
+                <ul class="footer-text">
+                    <li class="head">
+                        <p>Thưởng <span style="color: #0080AF;">50</span> ePoints khi đăng ký mới</p>
+                        <p>Tặng <span style="color: #0080AF;">5</span> ePoints cho mỗi lượt chia sẻ Facebook</p>
+                    </li>
+                    <li>
+                        <p>Xem và Tải trên <span style="color: #0080AF;">1 Triệu</span> Tài Liệu miễn phí</p>
+                        <p>Kết nối <span style="color: #0080AF;">5 Triệu</span> Thành Viên <span
+                                style="color: #0080AF;">TaiLieu.VN</span></p>
+                    </li>
+                    <li class="bottom">
+                        <p>Kết bạn với <span href="#"
+                                style="color: #0080AF; font-weight: bold; cursor: pointer; ">TaiLieu.VN</span> trên
+                            <span href="#" style="color: #0080AF; font-weight: bold; cursor: pointer; ">Facebook</span>
+                            để nhận link download
+                            miễn phí <span style="color: red;">100</span> tài liệu <span style="color: red;">HOT</span>
+                            mỗi ngày
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>

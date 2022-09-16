@@ -1,0 +1,216 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #777777;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(devin-platts-bacchus-fatcat-splash.jpg);
+
+}
+
+.mg-l {
+    margin-left: 10px;
+}
+
+.mg-t{
+    margin-top: 30px;
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.modal-signinform{
+    background-color: white;
+    width: 780px;
+    height: auto;
+    
+}
+.modal-signinform-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1A83D2;
+    height: 40px;
+    padding: 12px 10px;
+}
+.modal-siginform-header--title{
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+}
+.modal-siginform-header--img{
+    height: 12px;
+    width: 12px;
+}
+.modal-signinform-information{
+    padding:24px;
+}
+.bullet--icon{
+    font-size: 5px; 
+    margin-right: 10px;
+}
+.modal-signinform-information--title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.modal-signinform-information-loginwFB--contains{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contains--coupon {
+    width: 304px;
+    height: 70px;
+    border: 1px dashed #01B5E6;
+    background-color: #F5FBFF;
+    padding: 4px;
+    border-radius: 6px;
+}
+.contains--coupon li{
+    font-size: 12px;
+    list-style-type: none;
+    line-height: 20px;
+}
+
+.bullet-tip--icon {
+    margin-right: 2px;
+    margin-left: 4px;
+}
+
+.contains--coupon a {
+    text-decoration: none;
+    color: #40A0C4;
+}
+
+.contains--btn {
+    height: 40px;
+    width: 275px;
+    outline: none;
+    border: none;
+    background-color: #3C5A9A;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.sigin-new {
+    font-weight: bold;
+    color: #0080AF;
+    /* padding-bottom: 14px; */
+    cursor: pointer;
+}
+
+.modal-signinform-information-fillID {
+    margin-top: 14px;
+    
+}
+
+.form-group {
+    margin-top: 10px;
+}
+
+.form-group--input {
+    width: 304px;
+    height: 30px;
+    font-size: 12px;
+    margin-right: 10px;
+    padding: 3px;
+}
+
+.form-group--select {
+    width: 80px;
+    height: 30px;
+    font-size: 12px;
+    margin-right: 8px;
+    padding: 3px;
+}
+
+.modal-signinform-information-submit {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.submit--btn{
+    width: 75px ;
+    height: 30px;
+    background-color: #68B8FF;
+    font-size: 12px;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 6px; 
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submit--checkbox {
+    margin-left: 2px;
+}
+
+.decoration {
+    width: 100%;
+    border-bottom: 1px dashed #CECECE;
+    float: left;
+    margin: 5px 0;
+}
+
+.modal-signinform-information-submit--btn--checkpolicy a {
+    text-decoration: none;
+    color: #40A0C4;
+}
+
+
+.footer-text {
+    background-color: #fff;
+    width: 100%;
+    height: 86px;
+}
+
+.footer-text li {
+    display: inline;
+    float: left;
+    line-height: 20px;
+    height: 50px;
+    padding: 0 8px;
+    border-right: 1px solid #BBD0D7;
+}
+
+.footer-text .bottom {
+    width: 234px;
+    border: none;
+}
+.footer-text .head {
+    padding-left: 24px ;
+}
+.d-none {
+    display: none !important;
+}
+
+@keyframes amc {
+    from {top: -25px;}
+    to {top: 0px;}
+  }
+
+.animation-css{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    animation: amc 0.5s ease;
+}
+
